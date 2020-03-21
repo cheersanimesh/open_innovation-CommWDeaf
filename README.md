@@ -1,7 +1,7 @@
 # Project CommWDeaf
 ## Team TechBusters
 
-###Impact
+### Impact
 
  **Over a  billion people in this people belong to the Deaf Community**..**Over 70 million people** in this community use Sign Language as a medium of communication.. Each Country may have one or sometimes two or more sign languages.. 
 
@@ -19,7 +19,7 @@
 
  *We also address the problem of localised sign languages by providing flexibity to the dictionary of our sign languages..*
 
- We propose to capture the gestures through a camera and translate it to text and further to speech using cognitive solutions.. Further we record the voice of a normal person and translate it to text, which would enable the deaf person to *listen to a normal person* .. Thus we establish a two way between the deaf and the normal person..
+ We propose to capture the gestures through a camera and translate it to text and further to speech using cognitive solutions.. Further we record the voice of a normal person and translate it to text, which would enable the deaf person to **listen to a normal person** .. *Thus we establish a two way communication between the deaf and the normal person*..
 
  We deploy this application on a Web browser
 
