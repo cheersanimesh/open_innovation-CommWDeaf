@@ -25,7 +25,6 @@
 
  Our Application being a WEB application would be freely accesible to all people in this community, thus providing accesibility to the under-priviliged ..
 
- 
 ### Implementation
 
 **Frontend**:It is used  to provide realtime communication between the server and the client. It records the video from the webcam and posts it to the middleware server using formdata which in turn sends the video to the cnn model for prediction.It also enables text to speech and speech to text for the convienence of the deaf and dumb community.It accomplishes user friendly design and rich user interface.
@@ -47,7 +46,7 @@ It helps to build rich user interfaces and allows writing custom components.It o
 **Machine Learning Module**
 Images have been accepted and preprocessed and then passed into a Neural Network for classification. Due to a large training data a very Deep Neural Network has been trained to reduce bias as well as variance of the classifier..
 
-The training image data contained of self generated image data containing of 55500 images of 37 different labels..
+The training image data contained of self generated image data containing of 55500 images of 37 different labels..Since the training image data has been self generated so this can be used to increase the dictionary of gestures to adapt to further languages..
 
 The Neural Network Architecture implemented is similar to a **VGG 16** architecture.. Such a network has been chosen after a lot of test and trials.. A Deep network was preffered owing to the vast amount of variations in the Image Data..
 
