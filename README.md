@@ -32,7 +32,7 @@
 
  This is implemented using **Node.js** because it uses non-blocking, event-driven I/O to remain lightweight and efficient in the face of data-intensive real-time applications that run across distributed devices.
 
- Some libraries used are Express.js for server operation and FFmpeg for frame extraction.
+ Some libraries used are **Express.js** for server operation and **FFmpeg** for frame extraction.
 
 
 
