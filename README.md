@@ -27,6 +27,15 @@
 
  
 ### Implementation
+<img src="./images/first.jpeg" width="400" style="display: inline-block; ">
+<img src="./images/second.jpeg" width="400" style="display: inline-block;">
+
+**Frontend**:It is used  to provide realtime communication between the server and the client. It records the video from the webcam and posts it to the middleware server using formdata which in turn sends the video to the cnn model for prediction.It also enables text to speech and speech to text for the convienence of the deaf and dumb community.It accomplishes user friendly design and rich user interface.
+
+**Technologies used**:**React.js**:
+It helps to build rich user interfaces and allows writing custom components.It offers fast rendering and is SEO-friendly thus it is more likely to rank higher on  Google Search Engine Result Page.**Recordrtc**:Used to record WebRTC video media streams.It is very useful as it supports cross-browser video recording.**Speak-tts**:Used for speech to text implementation.
+
+<br/>
 
 **Frontend**:It is used  to provide realtime communication between the server and the client. It records the video from the webcam and posts it to the middleware server using formdata which in turn sends the video to the cnn model for prediction.It also enables text to speech and speech to text for the convienence of the deaf and dumb community.It accomplishes user friendly design and rich user interface.
 
