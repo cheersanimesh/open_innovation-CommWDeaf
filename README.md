@@ -27,6 +27,15 @@
 
  
 ### Implementation
+<img src="./images/first.jpeg" width="400" style="display: inline-block; ">
+<img src="./images/first.jpeg" width="400" style="display: inline-block;">
+
+**Frontend**:It is used  to provide realtime communication between the server and the client. It records the video from the webcam and posts it to the middleware server using formdata which in turn sends the video to the cnn model for prediction.It also enables text to speech and speech to text for the convienence of the deaf and dumb community.It accomplishes user friendly design and rich user interface.
+
+**Technologies used**:**React.js**:
+It helps to build rich user interfaces and allows writing custom components.It offers fast rendering and is SEO-friendly thus it is more likely to rank higher on  Google Search Engine Result Page.**Recordrtc**:Used to record WebRTC video media streams.It is very useful as it supports cross-browser video recording.**Speak-tts**:Used for speech to text implementation.
+
+<br/>
 
  **Middleware Server** :
  The middleware server (i.e. server.js) is a relay between frontend and the machine learning model hosted on flask.When it encounters a post request it takes the video from the frontend and extract frames from it, so that it can be fed into the machine learning model.
@@ -34,6 +43,28 @@
  This is implemented using **Node.js** because it uses non-blocking, event-driven I/O to remain lightweight and efficient in the face of data-intensive real-time applications that run across distributed devices.
 
  Some libraries used are **Express.js** for server operation and **FFmpeg** for frame extraction.
+
+<br/>
+
+**Machine Learning Module**
+Images have been accepted and preprocessed and then passed into a Neural Network for classification. Due to a large training data a very Deep Neural Network has been trained to reduce bias as well as variance of the classifier..
+
+The training image data contained of self generated image data containing of 55500 images of 37 different labels..Since the training image data has been self generated so this can be used to increase the dictionary of gestures to adapt to further languages..
+
+The Neural Network Architecture implemented is similar to a **VGG 16** architecture.. Such a network has been chosen after a lot of test and trials.. A Deep network was preffered owing to the vast amount of variations in the Image Data..
+
+The Neural Network has been implemented through **Keras** with **Tensorflow** serving as the backend.. It took about 2 hours to train the Neural Network on **Google Colab Servers** with *GPU as the hardware accelarator*.. 
+
+In order to deploy into a web Application the predicting module has been hosted on a **Flask Server**, in order to make the module communicate with the FrontEnd.. Flask being a lightweight web framework was easily deployable..
+
+### Further Improvements
+
+This application can easily be deployed to cloud servers so that this product could be used from any part of the globe..
+
+Cloud Servers with Powerful GPUs could further speed up the forward propagation of image frames which would reduce the delay in response to a great extent..
+
+With use of few other Apis such as Bare Bone Api and droplets we could further scale this product to serve a larger user-base..
+
 
 
 
