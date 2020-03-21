@@ -64,7 +64,7 @@ The Neural Network has been implemented through **Keras** with **Tensorflow** se
 
 In order to deploy into a web Application the predicting module has been hosted on a **Flask Server**, in order to make the module communicate with the FrontEnd.. Flask being a lightweight web framework was easily deployable..
 
-## Links for Video demonstrating Our Prototype
+## Links of Videos demonstrating Our Prototype
 > https://drive.google.com/open?id=1PF9OzFuqZidcSdCnwkSAxLJyUIZ-WYMG
 
 ### Further Improvements
