@@ -25,6 +25,7 @@
 
  Our Application being a WEB application would be freely accesible to all people in this community, thus providing accesibility to the under-priviliged ..
 
+ 
 ### Implementation
 
 **Frontend**:It is used  to provide realtime communication between the server and the client. It records the video from the webcam and posts it to the middleware server using formdata which in turn sends the video to the cnn model for prediction.It also enables text to speech and speech to text for the convienence of the deaf and dumb community.It accomplishes user friendly design and rich user interface.
@@ -53,6 +54,14 @@ The Neural Network Architecture implemented is similar to a **VGG 16** architect
 The Neural Network has been implemented through **Keras** with **Tensorflow** serving as the backend.. It took about 2 hours to train the Neural Network on **Google Colab Servers** with *GPU as the hardware accelarator*.. 
 
 In order to deploy into a web Application the predicting module has been hosted on a **Flask Server**, in order to make the module communicate with the FrontEnd.. Flask being a lightweight web framework was easily deployable..
+
+### Further Improvements
+
+This application can easily be deployed to cloud servers so that this product could be used from any part of the globe..
+
+Cloud Servers with Powerful GPUs could further speed up the forward propagation of image frames which would reduce the delay in response to a great extent..
+
+With use of few other Apis such as Bare Bone Api and droplets we could further scale this product to serve a larger user-base..
 
 
 
