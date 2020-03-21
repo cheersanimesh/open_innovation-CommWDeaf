@@ -25,6 +25,18 @@
 
  Our Application being a WEB application would be freely accesible to all people in this community, thus providing accesibility to the under-priviliged ..
 
+ 
+### Implementation
+
+ **Middleware Server** :
+ The middleware server (i.e. server.js) is a relay between frontend and the machine learning model hosted on flask.When it encounters a post request it takes the video from the frontend and extract frames from it, so that it can be fed into the machine learning model.
+
+ This is implemented using **Node.js** because it uses non-blocking, event-driven I/O to remain lightweight and efficient in the face of data-intensive real-time applications that run across distributed devices.
+
+ Some libraries used are **Express.js** for server operation and **FFmpeg** for frame extraction.
+
+
+
 
 
 
