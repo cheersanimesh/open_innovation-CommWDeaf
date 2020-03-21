@@ -42,6 +42,20 @@ It helps to build rich user interfaces and allows writing custom components.It o
 
  Some libraries used are **Express.js** for server operation and **FFmpeg** for frame extraction.
 
+<br/>
+
+**Machine Learning Module**
+Images have been accepted and preprocessed and then passed into a Neural Network for classification. Due to a large training data a very Deep Neural Network has been trained to reduce bias as well as variance of the classifier..
+
+The training image data contained of self generated image data containing of 55500 images of 37 different labels..
+
+The Neural Network Architecture implemented is similar to a **VGG 16** architecture.. Such a network has been chosen after a lot of test and trials.. A Deep network was preffered owing to the vast amount of variations in the Image Data..
+
+The Neural Network has been implemented through **Keras** with **Tensorflow** serving as the backend.. It took about 2 hours to train the Neural Network on **Google Colab Servers** with *GPU as the hardware accelarator*.. 
+
+In order to deploy into a web Application the predicting module has been hosted on a **Flask Server**, in order to make the module communicate with the FrontEnd.. Flask being a lightweight web framework was easily deployable..
+
+
 
 
 
