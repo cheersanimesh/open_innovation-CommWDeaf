@@ -72,7 +72,7 @@ In order to deploy into a web Application the predicting module has been hosted 
 7. Start the react development front ends erver using node package module
 8. With the communication now established open the front end content
 9. click on start Record to capture frames and Stop Record to stop capturing frames
-10. click on text to speech to text to speech
+10. click on text to speech to convert from text to speech
 11. Using start stop accordingly use it to convert speech to text
 
 ### Further Improvements
