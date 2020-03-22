@@ -10,6 +10,8 @@
  Development of any language including sign language, requires ongoing interaction between the speakers of that language..  The knowledge of sign language is limited and therefore it becomes a huge problem for these people.. 
 
  Deaf and Dumb people find it very difficult to communicate with people who have little or no knowledge about sign language. This widens the gap between these specially gifted people and others.. These specially gifted people are not able to express their ideas, feelings, emotions to the world and thus this becomes a huge problem for them.. These people find it very depressing to be not understood by the outside world.. As these people might have some brilliant ideas or talents which we are not able to see just because of this communication barrier.. Their ideas might never reach us which sounds very dissapointing..
+ 
+ A Solution to this problem is not at all a community service but a **necessity** for the upliftment of mankind..
 
  **Our project addresses this predicament of these people in our society..**
 
