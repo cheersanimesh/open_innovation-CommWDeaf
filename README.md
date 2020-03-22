@@ -3,13 +3,11 @@
 
 ### Impact
 
- **Over a  billion people in this people belong to the Deaf Community**..**Over 70 million people** in this community use Sign Language as a medium of communication.. Each Country may have one or sometimes two or more sign languages.. 
+ **Over a  billion people in this people belong to the Deaf Community**..**Over 70 million people** in this community use Sign Language as a medium of communication.. 
 
  *A sign language* is a language which uses manual communication and body language to convey meaning, as opposed to acoutically conveyed sound patterns.. This can involve simultaneously combining hand shapes,orientation and movement of the hands, arms or body, and facial expressions to fluidly expresses a speaker's thoughts..
 
- Development of any language including sign language, requires ongoing interaction between the speakers of that language.. Deaf people in rural areas have little or no oppurtunity, to meet other deaf people.. What is commonly observed that it appears to be literally the gestures used by hearing people to communicate with the deaf.. 
-
- The knowledge of sign language is limited and therefore it becomes a huge problem for these people.. 
+ Development of any language including sign language, requires ongoing interaction between the speakers of that language..  The knowledge of sign language is limited and therefore it becomes a huge problem for these people.. 
 
  Deaf and Dumb people find it very difficult to communicate with people who have little or no knowledge about sign language. This widens the gap between these specially gifted people and others.. These specially gifted people are not able to express their ideas, feelings, emotions to the world and thus this becomes a huge problem for them.. These people find it very depressing to be not understood by the outside world.. As these people might have some brilliant ideas or talents which we are not able to see just because of this communication barrier.. Their ideas might never reach us which sounds very dissapointing..
 
