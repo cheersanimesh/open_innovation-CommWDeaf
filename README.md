@@ -62,7 +62,18 @@ In order to deploy into a web Application the predicting module has been hosted 
 
 > https://drive.google.com/open?id=1LIiyiRpSM-Tnj8Q4gXMhrIHkHypUfjKq
 
-
+## How to Set Up Our Project
+1. Generate images and their corresponding lables by using genererating_symbols.py
+2. Generate rotated images to train on selected images using Rotate_images.py
+3. Generate pickle file to feed into cnn_model using generate_images_labels.py
+4. Go to Backend folder and Run The cnn_model.py to train the model
+5. With an h5 file now generated, start the flask server by running final_server1.py
+6. Start server.js in Backend folder using NODE JS
+7. Start the react development front ends erver using node package module
+8. With the communication now established open the front end content
+9. click on start Record to capture frames and Stop Record to stop capturing frames
+10. click on text to speech to text to speech
+11. Using start stop accordingly use it to convert speech to text
 
 ### Further Improvements
 
