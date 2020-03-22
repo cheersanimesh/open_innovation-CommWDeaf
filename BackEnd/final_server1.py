@@ -53,9 +53,15 @@ def get_frames():
     stri=""
     for i in predictions_fin:
         stri= stri+str(i)
-    predictions_final=[{'content':stri}]
+    
     print(stri)
-
+    with open('FrontEnd/prediction.json','r') as json_file:
+        old_string_dict_list=json.load(json_file)
+    old_string_dict=old_string_dict_list[0]
+    print(old_string_dict)
+    old_string=old_string_dict['content']
+    stri=old_string+" "+stri
+    predictions_final=[{'content':stri}]
     with open('FrontEnd/prediction.json','w') as json_file:     ## writing results into a json file to forward the prediction to frontend..
         json.dump(predictions_final,json_file)
     return jsonify(predictions_final)
